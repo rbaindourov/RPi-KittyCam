@@ -1,8 +1,5 @@
 # Raspberry Pi KittyCam
 
-![RPi KittyCam](https://lh3.googleusercontent.com/o-XG7ZijXM_UXQHuYrDxC6mlTofyUzUCmHqNmr6oRYZk=w1346-h757-no "Rapsberry Pi KittyCam")
-
-![RPi KittyCam](https://lh3.googleusercontent.com/UuKlrNQWs5wFciRqI8qiZKTVoh4XrTBa40LD5mUa5MIn=w1346-h757-no "Rapsberry Pi KittyCam")
 
 Raspberry Pi app using a camera and PIR motion sensor, written in Node.js using Johnny-Five and KittyDar for  with cat facial detection.
 
@@ -24,9 +21,6 @@ If you are a Raspberry Pi newbie, I recommend to buy your first Pi from [CanaKit
 - 1 red wire: PIR-VCC to Pi's 3V
 - 1 black wire: PIR-GND to Pi's ground
 - 1 whatever color wire: PIR-OUT to Pi's Pin 7 (GPIO 4)
-
-![RPi PIR](https://lh3.googleusercontent.com/vInXgXGKPueI2J4zq88BgUJOkcXgJCvReVT4kA2K1A16=w1424-h801-no "Rapsberry Pi 2, camera, and PIR wired")
-
 
 
 
@@ -100,9 +94,6 @@ Otherwise, go to the next step to fresh-install the next several modules.
 ### 2. Install Dependency Modules
 
 #### Install KittyDar
-
-![Jamie detected](http://res.cloudinary.com/girliemac/image/upload/v1440530252/jrfqcdul46c84qlqlks9.png "Jamie detected by KittyDar")
-*This is an actual photo taken by my Raspberry Pi, while Jamie was eating, and detected by KittyDar cat facial detection!*
 
 
 Once your environment is set up, in this RPi-KittyCam dir, install node dependency modules.
